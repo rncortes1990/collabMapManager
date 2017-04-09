@@ -1,0 +1,146 @@
+/*
+ Theme Name:   LayerStore
+ Theme URI:    http://themes4wp.com/theme/layerstore/
+ Description:  LayerStore is a child theme of MaxStore WooCommerce WordPress theme. LayerStore is free WooCommerce theme designed for creating beautiful online store for selling almost everything. It is best for fashion shop, handmade shop, accessories shop, glasses shop, electronic shop, watches... or any other categories.  Theme is user friendly and easy to use. Main features of LayerStore: Customizer theme options, background image and color, product search with category select, SEO optimized, fully responsive, configurable home page, product carousel, fast loading. Documentation available at http://demo.themes4wp.com/documentation/category/layerstore/ and check the demo at http://demo.themes4wp.com/layerstore/ 
+ Author:       Themes4WP
+ Author URI:   http://themes4wp.com/
+ Template:     maxstore
+ Version:      1.0.9
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+ Tags:         e-commerce, one-column, two-columns, right-sidebar, left-sidebar, full-width-template, custom-menu, featured-images, flexible-header, theme-options, translation-ready, footer-widgets
+ Text Domain:  layerstore
+*/
+.no-gutter [class*="-4"] {
+	  padding-left:0;
+    padding-right:0;
+}
+#myCarousel {
+    position: relative;
+    display: inline-block;
+    padding: 25px 0;
+    overflow: hidden;
+}
+#myCarousel a.carousel-control .fa {
+    position: absolute;
+    top: 50%;
+    font-size: 40px;
+    margin-top: -20px;
+}
+#myCarousel .fa-chevron-right {
+    right: 15px;
+}
+#myCarousel .fa-chevron-left {
+    left: 15px;
+}
+#myCarousel .carousel-control {
+    width: 8%;
+    margin: 25px 0;
+    z-index: 5;
+}
+#myCarousel .carousel-inner {
+    overflow: visible;
+}
+.carousel-inner .active.left { 
+    left: -33%; 
+}
+.carousel-inner .next { 
+    left:  33%; 
+}
+.carousel-inner .prev { 
+    left: -33%; 
+}
+.item:not(.prev) {visibility: visible;}
+.item.right:not(.prev) {visibility: hidden;}
+.rightest{ visibility: visible;}
+.item.active .top-carousel-inner:nth-of-type(2n) {
+    transform: scale(1.1);
+    z-index: 10;
+    box-shadow: 0px 0px 6px #424040;
+    -webkit-box-shadow: 0px 0px 6px #424040;
+    -moz-box-shadow: 0px 0px 6px #424040;
+    -webkit-transition: .4s ease-in-out;
+	  transition: .4s ease-in-out; 
+}
+.item.active.right .top-carousel-inner:nth-of-type(2n), .item.active.left .top-carousel-inner:nth-of-type(2n) {
+    transform: scale(1.0);
+    -webkit-transition: 0s;
+	  transition: 0s;
+}
+.top-carousel-inner {
+    box-shadow: 0px 0px 4px #424040;
+    -webkit-box-shadow: 0px 0px 4px #424040;
+    -moz-box-shadow: 0px 0px 4px #424040; 
+}
+#myCarousel .top-grid-heading {
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    border-bottom: 5px solid #F00;
+}
+.top-carousel-inner img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+	-webkit-transition: .8s ease-in-out;
+	transition: .8s ease-in-out;
+	filter: brightness(1);
+	-webkit-filter: brightness(1);
+}
+.top-carousel-inner:hover img {
+  -webkit-transform: rotate(5deg) scale(1.1);
+	transform: rotate(5deg) scale(1.1);
+	filter: brightness(0.3);
+	-webkit-filter: brightness(0.3);
+}
+.top-carousel-inner:hover .top-grid-heading {
+  color: #fff;
+}
+@media all and (max-width: 720px){
+    .top-carousel-inner h2 {
+        font-size: 16px;
+    }
+}
+
+a, .pagination > li > a, .pagination > li > span, .top-wishlist a {
+    color: #FF0000;
+}
+blockquote, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    border-color: #FF0000;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FF0000;
+}
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale, .top-area .onsale {
+    background-color: #FF0000;
+}
+li.woocommerce-MyAccount-navigation-link.is-active, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    background-color: #FF0000;
+}
+.navigation.pagination, .widget_search #searchform #searchsubmit, .woocommerce-product-search input[type="submit"], .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #FF0000;
+}
+li.woocommerce-MyAccount-navigation-link.is-active, .woocommerce ul.products li.product .button, .add-to-wishlist-custom:hover, #back-top span, .footer-pagination, .woocommerce a.added_to_cart:hover {
+    background-color: #FF0000;
+}
+.btn-primary.outline {
+    border: 2px solid #FF0000;
+    color: #FF0000;
+}
+.comment-respond #submit:hover, .widget_search #searchform #searchsubmit, .btn-info, .comment-respond #submit, #searchform #searchsubmit, .btn-primary.outline:hover, .btn-primary.outline a:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary, .topfirst-img:hover .btn-primary.outline {
+    border-color: #FF0000;
+    background-color: #FF0000;
+}
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    border-bottom-color: #FF0000;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: #FF0000;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #F46A00;
+}
+#content-footer-section {
+    background-color: transparent;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>APP</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="contenedor-forma">
+<div id="jugadores">
+	<h2>N° Jugadores</h2>	
+	<div>
+	<form class="form-jugadores">
+		<input id="nJugadores" type="number" name="" placeholder="Ingrese cantidad" min="1" max="5">
+		<input type="submit" name="" value="Aceptar">
+	</form>
+	</div>
+</div>
+</div>
+<div id="app">
+	
+</div>
+<script  type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript">
+	var no_e=document.querySelector("#nJugadores");
+	
+	no_e.addEventListener('keypress',NoE);
+	function NoE(e){
+		console.log(e)
+		if(e.code=="KeyE"){
+			e.preventDefault();
+		}
+	}
+</script>
+</body>
+</html>
