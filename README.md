@@ -4,6 +4,7 @@ This is the collabMap web database manager. This web application was made with t
 ## Tools used on the project
 This software was created using, html, css and Javascript (with jQuery) in the Front-end and PHP in the Back-end. 
 
+The database management system was PostgreSQL, and the used database managing software was PgAdmin III
 ## Known issues / future requirements
 - Password encryption has to be implementented.
 - File managing should be updated, considering scalable requests.
