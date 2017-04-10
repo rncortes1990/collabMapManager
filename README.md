@@ -6,7 +6,7 @@ This software was created using, html, css and Javascript (with jQuery) in the F
 
 The database management system was PostgreSQL, and the used database managing software was PgAdmin III
 ## Known issues / future requirements
-- Password encryption has to be implementented.
+- Password encryption has to be implemented.
 - File managing should be updated, considering scalable requests.
 - This app may be migrated to node js technology. 
 
