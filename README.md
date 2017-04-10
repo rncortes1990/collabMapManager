@@ -11,4 +11,4 @@ This software was created using, html, css and Javascript (with jQuery) in the F
 
 ## People who colaborated with the project
 - Pedro Rossel Cid  Academic from UCSC
-- Erika Ormeño      Software engineer who built and design CollabMap and its database.
+- Erika Ormeño      Software engineer who built and designed CollabMap and its database.
